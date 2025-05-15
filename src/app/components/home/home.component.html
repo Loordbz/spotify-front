@@ -1,1 +1,8 @@
-<p>home works!</p>
+<main>
+  <div class="media-grid">
+    <div *ngFor="let media of mediaList" class="media-card">
+      <img [src]="media.thumbnail" alt="media.title" />
+      <h3>{{ media.title }}</h3>
+    </div>
+  </div>
+</main>
