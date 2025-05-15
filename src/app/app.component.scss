@@ -1,0 +1,10 @@
+/* Reset básico */
+:host {
+  display: block;
+  min-height: 100vh;
+  height: auto;
+  width: auto;
+  background-color: #181818; // fundo escuro estilo Spotify/YouTube
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

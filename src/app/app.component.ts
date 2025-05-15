@@ -1,11 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { InsightsComponent } from './components/insights/insights.component';
+import { PlayerComponent } from './components/player/player.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  imports: [
+    RouterModule,
+    NavbarComponent,
+    InsightsComponent,
+    PlayerComponent
+  ]
 })
 export class AppComponent {
   title = 'spotify-front';
