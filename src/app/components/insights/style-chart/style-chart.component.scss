@@ -1,0 +1,13 @@
+.insights-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background-color: #121212;
+}
+
+.pie {
+  width: 600px !important;
+  height: 600px !important;
+  background-color: #1a1a1a;
+}

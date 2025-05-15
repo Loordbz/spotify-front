@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { InsightsComponent } from './components/insights/insights.component';
+import { InsightsComponent } from './pages/insights/insights.component';
 import { PlayerComponent } from './components/player/player.component';
 
 @Component({
