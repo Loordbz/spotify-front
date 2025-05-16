@@ -22,7 +22,26 @@ span:hover {
   width: 100%;
   gap: 20px;
   overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #b3b3b3;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  scrollbar-width: thin;
+  scrollbar-color: #b3b3b3 transparent;
 }
+
 
 .artists-grid,
 .albums-grid {
