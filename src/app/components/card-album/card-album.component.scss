@@ -1,0 +1,60 @@
+.album-card {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &:hover {
+    background-color: #2a2a2a;
+  }
+}
+
+.album-img-wrapper {
+  position: relative;
+
+  .play-icon {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    transform: translate(-20%, 10px);
+    color: #1ed760;
+    font-size: 48px;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+  }
+
+  &:hover .play-icon {
+    opacity: 1;
+    transform: translate(-20%, 0);
+  }
+}
+
+.album-img {
+  border: 1px solid transparent;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.album-info {
+  margin-top: 10px;
+
+  .album-name {
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+  }
+
+  .album-artist {
+    color: #B3B3B3;
+    font-size: 14px;
+  }
+}
