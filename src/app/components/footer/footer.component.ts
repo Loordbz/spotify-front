@@ -1,7 +1,6 @@
 
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -13,16 +12,4 @@ import { FormsModule } from '@angular/forms';
     FormsModule
   ],
 })
-export class FooterComponent implements OnInit{
-  constructor(private _router: Router) { }
-  
-  public searchText: string ='';
-
-  ngOnInit(): void {  }
-
-  public route(url: string) {
-    this._router.navigateByUrl(
-      this._router.createUrlTree([`${url}`])
-    );
-  }
-}
+export class FooterComponent { }
