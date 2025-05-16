@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Zé Neto & Cristiano",
+    "url": "https://i.ibb.co/7z7CZ69/artista-ze-neto.jpg"
+  },
+  {
+    "name": "Luan Santana",
+    "url": "https://i.ibb.co/MSbmBzH/artista-luan-santana.jpg"
+  },
+  {
+    "name": "Jorge & Mateus",
+    "url": "https://i.ibb.co/2WfJ8tD/artista-jorge-mateus.jpg"
+  },
+  {
+    "name": "Henrique & Juliano",
+    "url": "https://i.ibb.co/wCpHtfQ/artista-henrique-juliano.jpg"
+  },
+  {
+    "name": "Gustavo Lima",
+    "url": "https://i.ibb.co/XJP8Djh/artista-gustavo-limma.jpg"
+  },
+  {
+    "name": "White Noise (Sleep & Relaxtion Sounds)",
+    "url": "https://i.ibb.co/WBgGp5q/album-white-noise.jpg",
+    "artist": "Sleepy John"
+  },
+  {
+    "name": "O Céu Explica Tudo (Ao Vivo)",
+    "url": "https://i.ibb.co/BfbL8VL/album-ceu-explica.jpg",
+    "artist": "Henrique & Juliano"
+  },
+  {
+    "name": "Nada como um dia após o outro",
+    "url": "https://i.ibb.co/MDZt76D/album-racionais.jpg",
+    "artist": "Racionais"
+  },
+  {
+    "name": "Hit me hard and soft",
+    "url": "https://i.ibb.co/G3kXhXc/album-hit-me.jpg",
+    "artist": "Billie Eilish"
+  },
+  {
+    "name": "Caju",
+    "url": "https://i.ibb.co/B3b0N7H/album-caju.jpg",
+    "artist": "Liniker"
+  },
+  {
+    "name": "Escândulo Íntimo",
+    "url": "https://i.ibb.co/VMnCmTX/album-escandalo.jpg",
+    "artist": "Luísa Sonza"
+  }
+]

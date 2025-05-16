@@ -1,9 +1,38 @@
-html, body {
+.flex {
+  display: flex;
+}
+
+.flex-colum {
+  flex-direction: column;
+}
+
+.a-i-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+* {
   margin: 0;
   padding: 0;
-  background-color: #121212; 
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #000;
   color: #fff;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 100%;
 }
 
