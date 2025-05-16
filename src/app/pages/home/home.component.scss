@@ -2,6 +2,7 @@ main {
   display: flex;
   background-color: #000;
   padding: 10px;
+  height: 87.5vh;
 }
 
 span {
@@ -20,6 +21,7 @@ span:hover {
   padding: 20px;
   width: 100%;
   gap: 20px;
+  overflow-y: auto;
 }
 
 .artists-grid,
@@ -27,17 +29,15 @@ span:hover {
   padding: 30px;
 }
 
-.artists-container,
-.albums-container {
+.container-base {
   position: relative;
 
   .chevron-icon {
     position: absolute;
     right: 0;
-    top: 50%;
     transform: translateY(-50%);
     font-size: 24px;
-    color: #B3B3B3;
+    color: #000;
     opacity: 0;
     transition: opacity 0.3s ease;
     cursor: pointer;
@@ -45,5 +45,19 @@ span:hover {
 
   &:hover .chevron-icon {
     opacity: 1;
+  }
+}
+
+.artists-container {
+  @extend .container-base;
+  .chevron-icon {
+    top: 50%;
+  }
+}
+
+.albums-container {
+  @extend .container-base;
+  .chevron-icon {
+    top: 40%;
   }
 }

@@ -20,6 +20,14 @@
     "url": "https://i.ibb.co/XJP8Djh/artista-gustavo-limma.jpg"
   },
   {
+    "name": "Grupo Menos É Mais",
+    "url": "https://i.scdn.co/image/ab67616100005174a07c8e41774e3bd6b20f13e3"
+  },
+  {
+    "name": "Lady Gaga",
+    "url": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+  },
+  {
     "name": "White Noise (Sleep & Relaxtion Sounds)",
     "url": "https://i.ibb.co/WBgGp5q/album-white-noise.jpg",
     "artist": "Sleepy John"
@@ -48,5 +56,52 @@
     "name": "Escândulo Íntimo",
     "url": "https://i.ibb.co/VMnCmTX/album-escandalo.jpg",
     "artist": "Luísa Sonza"
+  },
+  {
+    "name": "333",
+    "url": "https://i.scdn.co/image/ab67616d00001e0263ecdc2fc549275b51fbb9a7",
+    "artist": "Matuê"
+  },
+  {
+    "name": "Ta Rico Os Menino do Gueto 🍀",
+    "url": "https://i.scdn.co/image/ab67616d00001e02be7c0fb60f9f2bf191d3aecf",
+    "artist": "Mc IG, Mc Ryan SP, Mc Lele JP, TrapLaudo",
+    "music": true
+  },
+  {
+    "name": "Cara da Serenata - Live",
+    "url": "https://i.scdn.co/image/ab67616d00001e0295e1ac2de526a4e90095dfdd",
+    "artist": "Luccas & Rodrigo, Vitor e Luan",
+    "music": true
+  },
+  {
+    "name": "P do Pecado - Ao Vivo",
+    "url": "https://i.scdn.co/image/ab67616d00001e023eb9bb75e0b5472777ba0291",
+    "artist": "Grupo Menos É Mais, Simone Mendes",
+    "music": true
+  },
+  {
+    "name": "Senta e Cala a Boca",
+    "url": "https://i.scdn.co/image/ab67616d00001e02a5bd8c7ba1685eedaac14b1b",
+    "artist": "Mc Jacaré, DJ JHOW BEATS",
+    "music": true
+  },
+  {
+    "name": "Braba No Chá",
+    "url": "https://i.scdn.co/image/ab67616d00001e0291b3888332182a559fecda7b",
+    "artist": "DJ CZ, MC Nito, DJ TS, DJ DUARTE",
+    "music": true
+  },
+  {
+    "name": "Cachorrinha de Madame",
+    "url": "https://i.scdn.co/image/ab67616d00001e02c73cdea24607750ad1b6f14d",
+    "artist": "DJ DUARTE, DJ TS, Mc Gw, Pollini",
+    "music": true
+  },
+  {
+    "name": "FAMOSINHA",
+    "url": "https://i.scdn.co/image/ab67616d00001e0272e0596789ba69a65f8cf075",
+    "artist": "Dj Caio Vieira, MC Meno K, Mc Rodrigo do CN",
+    "music": true
   }
 ]

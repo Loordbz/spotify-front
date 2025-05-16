@@ -3,6 +3,20 @@
   <section class="content">
     <div>
       <div class="flex a-i-center space-between">
+        <h2>Músicas em alta</h2>
+        <span>Mostrar tudo</span>
+      </div>
+      <div class="albums-container">
+        <div class="flex gap-20 albums-grid">
+          <div *ngFor="let music of musics">
+            <app-card-music [musicName]="music.name" [musicImg]="music.url" [musicArtist]="music.artist"></app-card-music>
+          </div>
+        </div>
+        <i class="fa-solid fa-circle-chevron-right chevron-icon"></i>
+      </div>
+    </div>
+    <div>
+      <div class="flex a-i-center space-between">
         <h2>Artistas populares</h2>
         <span>Mostrar tudo</span>
       </div>
