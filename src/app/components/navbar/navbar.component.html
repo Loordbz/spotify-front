@@ -1,6 +1,27 @@
 <main>
-  <nav class="navbar">
-    <span (click)="route('/')">🏠 Home</span>
-    <span (click)="route('/insights')">📊 Insights</span>
+  <nav class="flex a-i-center navbar">
+    <div class="flex a-i-center gap-20 ml-1 icons">
+      <span (click)="route('/')"> <i class="fa-brands fa-spotify"></i></span>
+      <span (click)="route('/insights')"><i class="fa-solid fa-chart-simple"></i></span>
+    </div>
+    <div class="flex a-i-center input-wrapper">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input class="spotify-input" [placeholder]="'O que você quer ouvir?'" [(ngModel)]="searchText" />
+    </div>
+    <div class="flex a-i-center gap-20 space-between container">
+      <div class="flex gap-20">
+        <span>Premium</span>
+        <span>Suporte</span>
+        <span>Baixar</span>
+      </div>
+      <h2>|</h2>
+      <div class="flex a-i-center space-between gap-20">
+        <div>
+          <span><i class="fa-solid fa-circle-arrow-down"></i> Instalar aplicativo</span>
+        </div>
+        <span>Inscrever-se</span>
+        <button class="buttonIn">Entrar</button>
+      </div>
+    </div>
   </nav>
 </main>

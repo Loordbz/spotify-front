@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
+import { FormControl, FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-navbar',
@@ -8,12 +9,15 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './navbar.component.scss',
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
 })
 export class NavbarComponent implements OnInit{
   constructor(private _router: Router) { }
   
+  public searchText: string ='';
+
   ngOnInit(): void {  }
 
   public route(url: string) {

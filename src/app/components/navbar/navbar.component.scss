@@ -1,13 +1,77 @@
 .navbar {
-  background-color: #1db954;
-  display: flex;
+  background-color: #000;
+ 
   gap: 20px;
-  padding: 1rem;
-  
+
   span {
-    color: white;
+    color: #B3B3B3;
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
   }
+}
+
+.icons {
+  i { 
+    margin-left: 15px;
+  }
+
+  .fa-spotify {
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .fa-chart-simple {
+    border: solid 1px #1F1F1F;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #1F1F1F;
+    font-size: 22px;
+  }
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+
+  i {
+    position: relative;
+    left: 30px;
+  }
+}
+
+.spotify-input {
+  width: 500px;
+  padding: 0.75rem 1rem 0.75rem 2.5rem; // espaço para o ícone
+  background-color: #1F1F1F;
+  border: 1px solid #1F1F1F;
+  border-radius: 32px;
+  color: #B3B3B3;
+  font-size: 1rem;
+  outline: none;
+
+  &::placeholder {
+    color: #888;
+  }
+}
+
+.search-icon {
+  position: absolute;
+  color: #aaa;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.container {
+  width: 70vw;
+}
+
+.buttonIn {
+  padding: 15px 30px;
+  border: solid 1px #fff;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 8px;
 }
